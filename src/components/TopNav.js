@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Nav, Button } from "reactstrap"
 
 function TopNav() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -10,12 +11,12 @@ function TopNav() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </Button>
           <section className="collapse navbar-collapse" id="navbarText">
             <ul className="nav col d-flex justify-content-end">
 
@@ -50,7 +51,7 @@ function TopNav() {
               </li>
             </ul>
           </section>
-        </nav>
+        </Nav>
       </header>
     </>
   );

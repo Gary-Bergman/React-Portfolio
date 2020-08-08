@@ -1,33 +1,34 @@
 import React from "react";
+import { Nav, Container, Row } from "reactstrap";
 
 
 function FooterNav() {
     return (
         <>
             <footer>
-                <nav class="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
-                    <figure class="container footerIcons">
-                        <section class="row mx-auto">
+                <Nav className="fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
+                    <Container className="footerIcons">
+                        <Row className="mx-auto">
                             {/* <!-- Github --> */}
-                            <a class="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i class="fa fa-github"
+                            <a className="col pr-5" href="https://github.com/Gary-Bergman" target="_blank"><i className="fa fa-github"
                                 aria-hidden="true"></i></a>
                             {/* <!-- Email --> */}
-                            <a class="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i class="fa fa-envelope"
+                            <a className="col x-5" href="mailto:garybergman00@gmail.com" target="_blank"><i className="fa fa-envelope"
                                 aria-hidden="true"></i></a>
                             {/* <!-- LinkedIn --> */}
-                            <a class="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
-                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a className="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank"><i
+                                className="fa fa-linkedin" aria-hidden="true"></i></a>
                             {/* <!-- Phone --> */}
-                            <a class="col pl-5" href="mailto:479-715-1009" target="_blank"><i class="fa fa-phone"
+                            <a className="col pl-5" href="mailto:479-715-1009" target="_blank"><i className="fa fa-phone"
                                 aria-hidden="true"></i></a>
                             {/* <!-- Resume --> */}
-                            <a class="col pl-5"
+                            <a className="col pl-5"
                                 href="https://drive.google.com/file/d/1HZU6OWLzWQNUQhQZbd7WZihXW6MoJPkH/view?usp=sharing"
-                                target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                                target="_blank"><i className="fa fa-file-text-o" aria-hidden="true"></i></a>
 
-                        </section>
-                    </figure>
-                </nav>
+                        </Row>
+                    </Container>
+                </Nav>
             </footer>
         </>
     )

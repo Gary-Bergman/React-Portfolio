@@ -8,7 +8,7 @@ function About() {
     <>
       <main className="container pb-3">
 
-        <Card className="m-sm-5 p-3 card board aboutMe ">
+        <Card className="m-sm-5 p-3 board aboutMe">
           <CardBody>
             <legend className="card-title text-primary">About Me</legend>
             <hr className="my-4" />
