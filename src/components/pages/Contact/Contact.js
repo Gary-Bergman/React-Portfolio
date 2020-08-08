@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardBody, Row, CardText, Container } from "reactstrap";
+import style from "./style.css"
 
 // import { Link, Route } from "react-router-dom";
 // import Learn from "./Learn";
@@ -12,9 +13,9 @@ function Contact(props) {
           <legend className="card-title text-primary">Contact</legend>
           <hr className="my-4" />
 
-          <Row>
+          <Row className="center"> 
             <CardText>
-              <Container className="footerIcons">
+              <Container>
 
                 {/* <!-- Github --> */}
                 <Row>

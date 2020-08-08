@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import TopNav from "./components/TopNav";
-import Portfolio from "./components/pages/Portfolio";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import FooterNav from "./components/FooterNav";
+import TopNav from "./components/TopNav/TopNav";
+import Portfolio from "./components/pages/Portfolio/Portfolio";
+import About from "./components/pages/About/About";
+import Contact from "./components/pages/Contact/Contact";
+import FooterNav from "./components/FooterNav/FooterNav";
 
 function App() {
   return (
