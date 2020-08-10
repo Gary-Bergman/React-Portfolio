@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody } from "reactstrap"
-import Project from "../../Project"
+import Project from "../Project"
 
 function Portfolio() {
   return (

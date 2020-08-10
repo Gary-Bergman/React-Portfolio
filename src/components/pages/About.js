@@ -14,7 +14,8 @@ function About() {
             <hr className="my-4" />
 
             <Row>
-              <CardText> <img id="bio-image"
+              <CardText>
+                <img id="bio-image"
                 className="col-sm-12 col-md-6 col-lg-4 img-fluid float-left mr-5"
                 src="../assets/images/headshot.jpg" alt="Headshot" />
                 I'm a Full Stack Developer in training based in Philadelphia, PA. I run a small event marketing

@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(/assets/images/background-port.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Contact */
+a {
+  font-size: x-large;
+}
+
+/* .center {
+  justify-content: center;
+}  */
+
+/* div.row {
+  justify-content: center;
+} */
+
+#contact-image {
+  display: block;
+  height: auto;
+  /* min-width: 500px !important; */
+}
+
+div.card {
+  /* margin-top: 25% !important;
+  margin-bottom: 50% */
+  margin-bottom: 20% !important;
+  
 }

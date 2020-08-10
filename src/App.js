@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import TopNav from "./components/TopNav/TopNav";
-import Portfolio from "./components/pages/Portfolio/Portfolio";
-import About from "./components/pages/About/About";
-import Contact from "./components/pages/Contact/Contact";
+import TopNav from "./components/TopNav";
+import Portfolio from "./components/pages/Portfolio";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import Project from "./components/Project";
-import FooterNav from "./components/FooterNav/FooterNav";
+import FooterNav from "./components/FooterNav";
 import myProjects from "./myProjects.json";
 
 
@@ -14,7 +14,6 @@ class App extends Component {
   state = {
     myProjects
   };
-
 
   render() {
     return (
@@ -28,23 +27,23 @@ class App extends Component {
             <FooterNav />
           </div>
         </Router>
-
+{/* 
         {this.state.myProjects.map(myProjects => (
-          <Project
-            id={myProjects.id}
-            key={myProjects.id}
-            name={myProjects.name}
-            image={myProjects.image}
-            description={myProjects.description}
-            repo={myProjects.repo}
-            deployed={myProjects.deployed}
-          />
-        ))}
-      </>
+    <Project
+      id={myProjects.id}
+      key={myProjects.id}
+      name={myProjects.name}
+      image={myProjects.image}
+      description={myProjects.description}
+      repo={myProjects.repo}
+      deployed={myProjects.deployed}
+    />
+  ))} */}
 
+        
+      </>
     );
   }
-
 }
 
 export default App;

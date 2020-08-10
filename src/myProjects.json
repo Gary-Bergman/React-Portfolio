@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Uni-Buy",
-      "image": "/assets/images/UniBuy.png",
+      "image": "../public/assets/images/UniBuy.png",
       "description": "Buy and sell items at your university.",
       "repo": "https://github.com/Gary-Bergman/uni-buy",
       "deployed": "https://uni-buy-great.herokuapp.com/"
