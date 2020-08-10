@@ -30,8 +30,8 @@ function Project(props) {
             </figure> */}
 
             <figure className="col-md-6 p-3 text-center">
-                <Card>
-                    <img src={props.img} className="card-img-top" alt={props.name + " picture"} />
+                <Card >
+                    <img src={props.image} className="card-img-top" alt={props.name + " picture"} />
                     <CardBody>
                         <CardTitle>
                             <h5>{props.name}</h5>

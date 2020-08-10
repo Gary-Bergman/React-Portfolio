@@ -1,21 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import TopNav from "./components/TopNav";
 import Portfolio from "./components/pages/Portfolio";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import Project from "./components/Project";
 import FooterNav from "./components/FooterNav";
-import myProjects from "./myProjects.json";
 
 
-class App extends Component {
+
+function App() {
   // Setting this.state.friends to the friends json array
-  state = {
-    myProjects
-  };
 
-  render() {
     return (
       <>
         <Router>
@@ -27,23 +22,13 @@ class App extends Component {
             <FooterNav />
           </div>
         </Router>
-{/* 
-        {this.state.myProjects.map(myProjects => (
-    <Project
-      id={myProjects.id}
-      key={myProjects.id}
-      name={myProjects.name}
-      image={myProjects.image}
-      description={myProjects.description}
-      repo={myProjects.repo}
-      deployed={myProjects.deployed}
-    />
-  ))} */}
+
+        
 
         
       </>
     );
   }
-}
+
 
 export default App;

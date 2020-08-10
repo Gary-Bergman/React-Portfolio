@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody } from "reactstrap"
 import Project from "../Project"
+import myProjects from "../../myProjects.json";
 
 function Portfolio() {
   return (
@@ -10,7 +11,17 @@ function Portfolio() {
           <CardBody className="card-body">
             <legend className="card-title text-primary">Portfolio</legend>
             <hr className="my-4" />
-            <Project />
+            {myProjects.map(myProjects => (
+              <Project
+                id={myProjects.id}
+                key={myProjects.id}
+                name={myProjects.name}
+                image={myProjects.image}
+                description={myProjects.description}
+                repo={myProjects.repo}
+                deployed={myProjects.deployed}
+              />
+            ))}
           </CardBody>
         </Card>
       </main>
