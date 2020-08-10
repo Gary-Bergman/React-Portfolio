@@ -21,6 +21,18 @@ code {
   float: right;
 }
 
+.topNavItem {
+  color: #007bff !important;
+}
+
+.topNavItem:hover {
+  font-weight: bold;
+}
+
+.name:hover {
+  font-weight: bold;
+}
+
 /* Portfolio */
 
 .projbtn {
@@ -65,4 +77,9 @@ a {
 
 div.card {
   margin-bottom: 20% !important;
+}
+
+.submit {
+  background-color: #f8f9fa;
+  color: #007bff;
 }

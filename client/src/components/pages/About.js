@@ -16,8 +16,8 @@ function About() {
             <Row>
               <CardText>
                 <img id="bio-image"
-                  className="col-sm-12 col-md-6 col-lg-4 img-fluid float-left mr-5"
-                  src="/assets/images/headshot.jpg" alt="Headshot" />
+                className="col-sm-12 col-md-6 col-lg-4 img-fluid float-left mr-5"
+                src="../assets/images/headshot.jpg" alt="Headshot" />
                 I'm a Full Stack Developer in training based in Philadelphia, PA. I run a small event marketing
                 company, Local Amp LLC, but decided to take up coding to increase my marketable skill sets.
                 Outside of work I love to play Ultimate, video games, board games and guitar! I have only been

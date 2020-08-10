@@ -7,20 +7,20 @@ import Contact from "./components/pages/Contact";
 import FooterNav from "./components/FooterNav";
 
 function App() {
-    return (
-      <>
-        <Router>
-          <div>
-            <TopNav />
-            <Route exact path={["/", "/about"]} component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            {/* <Route path="*" component={About} /> */}
-            <FooterNav />
-          </div>
-        </Router>
-      </>
-    );
-  }
+  return (
+    <>
+      <Router>
+        <TopNav />
+        <main className="container p-3">
+          <Route exact path={["/", "/about"]} component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          {/* <Route path="*" component={About} /> */}
+          <FooterNav />
+        </main>
+      </Router>
+    </>
+  );
+}
 
 export default App;

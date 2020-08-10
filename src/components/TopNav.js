@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Nav, Button } from "reactstrap"
+import { Nav, Button, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, NavLink } from "reactstrap"
 
 function TopNav() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -8,10 +8,30 @@ function TopNav() {
   // This allows the component to check the route any time the user uses a link to navigate.
   const location = useLocation();
 
+  // const [collapsed, setCollapsed] = useState(true);
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
   return (
     <>
       <header>
-        <Nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Navbar className="navbar navbar-expand-lg navbar-light bg-light" light expand="md">
+          <NavbarBrand href="/" className="ml-auto">reactstrap</NavbarBrand>
+          <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+          <Collapse isOpen={!collapsed} navbar>
+            <Nav navbar>
+              <NavItem>
+                <NavLink className="float" href="/">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/portfolio">Portfolio</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contact">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
           <a className="navbar-brand ml-5 text-primary myName">Gary Bergman</a>
           <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +71,22 @@ function TopNav() {
               </li>
             </ul>
           </section>
-        </Nav>
+        </Navbar>
+        {/* <Navbar color="faded" light expand="md">
+          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
+          <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+          <Collapse isOpen={!collapsed} navbar>
+            <Nav navbar>
+              <NavItem>
+                <NavLink href="/components/">Components</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar> */}
+
       </header>
     </>
   );

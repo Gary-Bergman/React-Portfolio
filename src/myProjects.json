@@ -1,56 +1,50 @@
 [
-    {
-      "id": 1,
-      "name": "Uni-Buy",
-      "image": "assets/images/UniBuy.png",
-      "description": "Buy and sell items at your university.",
-      "repo": "https://github.com/Gary-Bergman/uni-buy",
-      "deployed": "https://uni-buy-great.herokuapp.com/"
-    },
-
-    {
-      "id": 2,
-      "name": "Book Nook",
-      "image": "assets/images/BookNook.png",
-      "description": "Find a book to read based on a movie you like.",
-      "repo": "https://github.com/Gary-Bergman/Book-Nook",
-      "deployed": "https://gary-bergman.github.io/Book-Nook/"
-    },
-
-    {
-      "id": 3,
-      "name": "Eat Da Burger",
-      "image": "assets/images/EatDaBurger.png",
-      "description": "Eat Bob's tasty burgers.",
-      "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
-      "deployed": "https://eat-da-burger-great.herokuapp.com/" 
-    },
-
-    {
-      "id": 4,
-      "name": "Note Taker",
-      "image": "assets/images/NoteTaker.png",
-      "description": "Don't forget, take a note.",
-      "repo": "https://github.com/Gary-Bergman/Note-Taker" ,
-      "deployed": "https://note-taker-great.herokuapp.com/"
-    },
-
-    {
-      "id": 5,
-      "name": "Weather Dashboard",
-      "image": "assets/images/WeatherDashboard.png",
-      "description": "Track weather in any city around the world.",
-      "repo": "https://github.com/Gary-Bergman/Weather-Dashboard" ,
-      "deployed": "https://gary-bergman.github.io/Weather-Dashboard/" 
-    },
-
-    {
-      "id": 6,
-      "name": "Work Day Scheduler",
-      "image": "assets/images/WorkDayScheduler.png",
-      "description": "Easily schedule each hour of your work day.",
-      "repo": "https://github.com/Gary-Bergman/Work-Day-Scheduler" ,
-      "deployed": "https://gary-bergman.github.io/Work-Day-Scheduler/" 
-    }
-   
-  ]
+  {
+    "id": 1,
+    "name": "Uni-Buy",
+    "image": "assets/images/UniBuy.png",
+    "description": "Buy and sell items at your local university.",
+    "repo": "https://github.com/Gary-Bergman/uni-buy",
+    "deployed": "https://uni-buy-great.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "name": "Book Nook",
+    "image": "assets/images/BookNook.png",
+    "description": "Find a book based on a movie you like.",
+    "repo": "https://github.com/Gary-Bergman/Book-Nook",
+    "deployed": "https://gary-bergman.github.io/Book-Nook/"
+  },
+  {
+    "id": 3,
+    "name": "Eat Da Burger",
+    "image": "assets/images/EatDaBurger.png",
+    "description": "Eat Bob's tasty burgers.",
+    "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
+    "deployed": "https://eat-da-burger-great.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "Note Taker",
+    "image": "assets/images/NoteTaker.png",
+    "description": "Don't forget, take a note.",
+    "repo": "https://github.com/Gary-Bergman/Note-Taker",
+    "deployed": "https://note-taker-great.herokuapp.com/"
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "assets/images/WeatherDashboard.png",
+    "description": "Track weather in any city around the world.",
+    "repo": "https://github.com/Gary-Bergman/Weather-Dashboard",
+    "deployed": "https://gary-bergman.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "assets/images/WorkDayScheduler.png",
+    "description": "Easily schedule each hour of your work day.",
+    "repo": "https://github.com/Gary-Bergman/Work-Day-Scheduler",
+    "deployed": "https://gary-bergman.github.io/Work-Day-Scheduler/"
+  }
+]

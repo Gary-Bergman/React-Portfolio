@@ -19,7 +19,7 @@ function FooterNav() {
                             <a className="col pl-5" href="https://www.linkedin.com/in/gary-bergman/" target="_blank" rel="noopener noreferrer"><i
                                 className="fa fa-linkedin" aria-hidden="true"></i> </a>
                             {/* <!-- Phone --> */}
-                            <a className="col pl-5" href="tel:4797151009" target="_blank" rel="noopener noreferrer"><i className="fa fa-phone"
+                            <a className="col pl-5"  href="tel:4797151009" target="_blank" rel="noopener noreferrer"><i className="fa fa-phone"
                                 aria-hidden="true"></i> </a>
                             {/* <!-- Resume --> */}
                             <a className="col pl-5"
