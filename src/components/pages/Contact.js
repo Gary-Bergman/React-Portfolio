@@ -43,7 +43,7 @@ function Contact() {
                   <br></br>
                   {/* <!-- Phone --> */}
                   <Row>
-                    <a href="mailto:479-715-1009" target="_blank" rel="noopener noreferrer"><i className="fa fa-phone"
+                    <a href="tel:4797151009" target="_blank"><i className="fa fa-phone"
                       aria-hidden="true"></i> Phone</a>
                   </Row>
                   <br></br>
