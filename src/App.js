@@ -6,11 +6,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import FooterNav from "./components/FooterNav";
 
-
-
 function App() {
-  // Setting this.state.friends to the friends json array
-
     return (
       <>
         <Router>
@@ -19,16 +15,12 @@ function App() {
             <Route exact path={["/", "/about"]} component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/portfolio" component={Portfolio} />
+            {/* <Route path="*" component={About} /> */}
             <FooterNav />
           </div>
         </Router>
-
-        
-
-        
       </>
     );
   }
-
 
 export default App;
