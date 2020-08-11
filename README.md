@@ -3,13 +3,23 @@
 
   ## Deployed
 
-  ![React Portfolio gif](public/assets/images/ReactPortfolio.gif)
-
-  
-  [MP4 Demo](https://drive.google.com/file/d/1efMIYJ3quPszKAhT5mNj_cpOWswVkKk3/view?usp=sharing)
-
 
   [Deployed Link](https://react-portfolio-great.herokuapp.com/)
+
+  [MP4 Demo](https://drive.google.com/file/d/1efMIYJ3quPszKAhT5mNj_cpOWswVkKk3/view?usp=sharing)
+
+  [React Portfolio gif](https://drive.google.com/file/d/1qWvg7kvDxC-39AnzWETjzqgiwrIKJFta/view?usp=sharing)
+
+  <img src="client/public/assets/images/About.png">
+
+  <img src="client/public/assets/images/Portfolio.png">
+
+  <img src="client/public/assets/images/Contact.png">
+
+  <p align="center">
+    <img src="client/public/assets/images/Mobile.png" width="200" center>
+  </p>
+
   
   ## Description
 
