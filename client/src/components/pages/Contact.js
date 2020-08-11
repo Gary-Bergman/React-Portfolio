@@ -26,7 +26,7 @@ function Contact() {
     axios.post("/api/submit", postEmail)
       .then(res => {
         console.log(res)
-        let myColor = { background: "#007bff", text: "#fffff" }
+        let myColor = { background: "#007bff", text: "#FFFFFF" }
         document.getElementById("id1").value = "";
         document.getElementById("id2").value = "";
         document.getElementById("id3").value = "";
