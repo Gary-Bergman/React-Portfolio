@@ -18,7 +18,7 @@ function TopNav() {
           <NavbarBrand href="/" className="ml name">Gary Bergman</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>
-            <Nav className="navbar-right">
+            <Nav className="ml-auto">
               <NavItem >
                 <NavLink className="topNavItem" href="/">About</NavLink>
               </NavItem>
@@ -30,7 +30,7 @@ function TopNav() {
               </NavItem>
             </Nav>
           </Collapse>
-      
+
         </Navbar>
 
       </header>
