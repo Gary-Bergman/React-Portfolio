@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Container, Form, FormGroup, Label, Input, Button } from "reactstrap";
-import axios from "axios"
+import axios from "axios";
 
 
 function Contact() {
