@@ -12,6 +12,10 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gary-Bergman/React-Portfolio.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
