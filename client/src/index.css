@@ -15,6 +15,9 @@ body {
   /* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
   /* background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
   background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+  background-size: cover;
+  height: 100vh; 
+  overflow: auto;
 }
 
 code {
@@ -31,6 +34,9 @@ a {
   font-size: x-large;
   color: #06545d;
 }
+/* a:hover {
+  color: white !important;
+} */
 
 /* TopNav */
 
@@ -62,6 +68,25 @@ a {
   color: #a3acad;
 }
 
+/* Intro */
+
+.cardIntro {
+  margin-top: 20%;
+  vertical-align: middle;
+  padding: 25px;
+}
+
+.nameIntro {
+  text-align: center;
+  font-size: x-large;
+}
+
+.bodyIntro {
+  text-align: center;
+  font-size: large;
+}
+
+
 /* About */
 
 .aboutMe {
@@ -78,13 +103,26 @@ a {
   vertical-align: center;
 
 }
-.submit {
+.prjBtn {
   background-color: #f8f9fa;
   color: #06545d;
+  margin-top: 5px;
+}
+
+.prjBtn:hover {
+  color: white !important;
 }
 
 .a:hover {
   color: white !important;
+}
+
+.buttonText {
+  color: #06545d;
+}
+
+.buttonText:hover {
+  color: white;
 }
 
 
@@ -142,3 +180,6 @@ i:hover {
   font-size: xx-large;
 }
 
+.footerNav {
+ background-color: #fff !important;
+}

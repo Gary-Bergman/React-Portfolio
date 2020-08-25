@@ -1,30 +1,34 @@
 import React from "react";
 import {
-    Card, CardBody, Row, CardText
+    Card, CardBody, Row, CardText, Container
 } from "reactstrap";
 
 function Intro() {
     return (
-      <>
-            {/* <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> */}
+        <>
+            <Container >
+                <Card className="cardIntro shadow-lg">
+                    <CardBody>
+                        <CardText>
+                            <div className="nameIntro">
+                                Gary Bergman
+                        </div>
+                            <hr className="my-4" />
+                            <div className="bodyIntro">
+                                Full Stack Developer
+                        <br />
+                        Web Designer
+                        </div>
+                        </CardText>
 
-                <div class="content">
-                    <div class="content__container">
-                        <p class="content__container__text">
-                            Hello
-                        </p>
 
-                        <ul class="content__container__list">
-                            <li class="content__container__list__item">world !</li>
-                            <li class="content__container__list__item">bob !</li>
-                            <li class="content__container__list__item">users !</li>
-                            <li class="content__container__list__item">everybody !</li>
-                        </ul>
-                    </div>
-                </div>
-   
-    </>
-  );
+
+                    </CardBody>
+                </Card>
+
+            </Container>
+        </>
+    );
 }
 
 export default Intro;

@@ -15,12 +15,12 @@ function Project(props) {
                         <CardText className="descriptionText">
                             {props.description}
                         </CardText>
-                        <Button className="submit">
-                            <a href={props.repo} target="_blank" rel="noopener noreferrer">Project Repo</a>
+                        <Button className="prjBtn">
+                            <a href={props.repo} target="_blank" rel="noopener noreferrer" className="buttonText">Project Repo</a>
                         </Button >
                         &nbsp;
-                        <Button className="submit">
-                            <a href={props.deployed} target="_blank" rel="noopener noreferrer">Deployed Site</a>
+                        <Button className="prjBtn">
+                            <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="buttonText">Deployed Site</a>
                         </Button>
 
                     </CardBody>

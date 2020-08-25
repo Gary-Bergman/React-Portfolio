@@ -6,7 +6,7 @@ function FooterNav() {
     return (
         <>
             <footer>
-                <Nav className="shadow fixed-bottom mt-5 navbar navbar-expand-lg navbar-light bg-light">
+                <Nav className="shadow fixed-bottom mt-5 navbar navbar-expand-lg navbar-light footerNav">
                     <Container className="footerIcons">
                         <Row className="mx-auto">
                             {/* <!-- Github --> */}
