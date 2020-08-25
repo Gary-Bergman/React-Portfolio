@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <>
       {/* <main className="container p-3"> */}
-        <Card className="m-sm-5 p-3 board">
+        <Card className="m-sm-5 p-3 board shadow-lg">
           <CardBody className="card-body">
             <legend className="card-title legendText">Portfolio</legend>
             <hr className="my-4" />

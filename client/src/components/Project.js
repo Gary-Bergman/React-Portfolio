@@ -6,7 +6,7 @@ function Project(props) {
     return (
         <>
             <figure className="col-md-6 p-3 text-center hvr-grow">
-                <Card >
+                <Card className="shadow">
                     <img src={props.image} className="card-img-top" alt={props.name + " picture"} />
                     <CardBody>
                         <CardTitle>
