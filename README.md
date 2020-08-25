@@ -1,31 +1,27 @@
 # React Portfolio
   
 
+  ## Demo
+
+  ![Uni-Buy gif](client/public/assets/images/ReactPortfolio.gif)
+
+  [MP4 Demo](https://drive.google.com/file/d/1IE_A7oJuO1vt4GmaIgk1X0mPWlr1daSR/view?usp=sharing)
+
+    
   ## Deployed
 
-
   [Deployed Link](https://react-portfolio-great.herokuapp.com/)
-
-  [MP4 Demo](https://drive.google.com/file/d/1efMIYJ3quPszKAhT5mNj_cpOWswVkKk3/view?usp=sharing)
-
-  [React Portfolio gif](https://drive.google.com/file/d/1qWvg7kvDxC-39AnzWETjzqgiwrIKJFta/view?usp=sharing)
-
-  <img src="client/public/assets/images/About.png">
-
-  <img src="client/public/assets/images/Portfolio.png">
-
-  <img src="client/public/assets/images/Contact.png">
-
-  <p align="center">
-    <img src="client/public/assets/images/Mobile.png" width="200" center>
-  </p>
 
   
   ## Description
 
   This is my portfolio built with React! Check out the `About Me` page for my bio, the `Contact` page to send me a message, or the `Portfolio` page to see my work!  
 
+  This project uses React Hooks for functionality as well as NodeMailer and ReactToast for the `Contact` page messaging system. This application is completely mobile responsive!
+
   ## Table of Contents
+
+  *  [Demo](#Demo)
 
   *  [Deployed](#Deployed)
 
