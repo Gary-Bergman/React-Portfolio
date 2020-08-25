@@ -61,7 +61,7 @@ function Contact() {
               <Button type="submit" className="submit" onClick={handleFormSubmit}>Submit</Button>
             </Form>
           </Card>
-
+            {/* <br /> */}
         </Container>
       </main>
 

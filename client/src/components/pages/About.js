@@ -25,6 +25,7 @@ function About() {
             </Row>
           </CardBody>
         </Card>
+        {/* <br /> */}
 
       </main>
     </>

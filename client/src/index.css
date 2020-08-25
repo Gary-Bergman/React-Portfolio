@@ -5,19 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* background-image: url(/assets/images/background-port.jpg); */
-  /* background-image: url(/assets/images/blue.jpg);
-  background-size: cover; */
-  /* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
-  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-  /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
-  /* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
-  /* background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
   background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
-  background-size: cover;
-  height: fit-content; 
+  /* background-size: cover; */
+  height: 1vh; 
   overflow: auto;
+
 }
 
 code {
@@ -34,9 +26,7 @@ a {
   font-size: x-large;
   color: #06545d;
 }
-/* a:hover {
-  color: white !important;
-} */
+
 
 /* TopNav */
 
@@ -71,9 +61,10 @@ a {
 /* Intro */
 
 .cardIntro {
-  margin-top: 20%;
+  margin-top: 19%;
+  margin-bottom: 0px;
   vertical-align: middle;
-  padding: 25px;
+  padding: 40px;
 }
 
 .nameIntro {
@@ -106,6 +97,8 @@ a {
   width: auto;
   text-align: center;
   vertical-align: center;
+  /* border: 1px solid black; */
+  padding: 2px;
 
 }
 .prjBtn {

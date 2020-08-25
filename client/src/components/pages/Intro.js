@@ -12,19 +12,21 @@ function Intro() {
                         <CardText>
                             <div className="nameIntro">
                                 Gary Bergman
-                        </div>
+                            </div>
                             <hr className="my-4" />
                             <div className="bodyIntro">
                                 Full Stack Developer
-                        <br />
-                        Web Designer
-                        </div>
+                            <br />
+                                Web Designer
+                            </div>
                         </CardText>
-
-
-
                     </CardBody>
                 </Card>
+
+                {/* <br />
+                <br />
+                <br />
+                <br /> */}
 
             </Container>
         </>
