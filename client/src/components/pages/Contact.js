@@ -43,7 +43,7 @@ function Contact() {
 
           <Card className="m-sm-5 p-3 board">
             <Form>
-              <legend className="text-primary">Contact</legend>
+              <legend className="legendText">Contact</legend>
               <hr className="my-4" />
               <FormGroup>
                 <Label for="exampleFormControlInput1">Name</Label>

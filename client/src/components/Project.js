@@ -12,14 +12,14 @@ function Project(props) {
                         <CardTitle>
                             <h5>{props.name}</h5>
                         </CardTitle>
-                        <CardText>
+                        <CardText className="descriptionText">
                             {props.description}
                         </CardText>
-                        <Button className="projbtn">
+                        <Button className="submit">
                             <a href={props.repo} target="_blank" rel="noopener noreferrer">Project Repo</a>
                         </Button >
                         &nbsp;
-                        <Button className="projbtn">
+                        <Button className="submit">
                             <a href={props.deployed} target="_blank" rel="noopener noreferrer">Deployed Site</a>
                         </Button>
 

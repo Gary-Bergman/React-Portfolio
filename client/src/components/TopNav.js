@@ -14,13 +14,13 @@ function TopNav() {
   return (
     <>
       <header>
-        <Navbar className="navbar navbar-expand-lg navbar-light bg-light" light expand="md">
+        <Navbar className="shadow navColor navbar navbar-expand-lg navbar-light " light expand="md">
           <NavbarBrand href="/" className="ml name">Gary Bergman</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>
             <Nav className="ml-auto">
               <NavItem >
-                <NavLink className="topNavItem" href="/">About</NavLink>
+                <NavLink className="topNavItem" href="/about">About</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="topNavItem" href="/portfolio">Portfolio</NavLink>

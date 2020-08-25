@@ -1,6 +1,14 @@
 [
+    {"id": 1,
+      "name": "TeachPod",
+      "image": "assets/images/TeachPod.png",
+      "description": "Connect parents with teachers to form learning pods.",
+      "repo": "https://github.com/Gary-Bergman/TeacherPod",
+      "deployed": "https://teach-pod-great.herokuapp.com/"
+    },
+
     {
-      "id": 1,
+      "id": 2,
       "name": "Uni-Buy",
       "image": "assets/images/UniBuy.png",
       "description": "Buy and sell items at your local university.",
@@ -9,7 +17,7 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "name": "Book Nook",
       "image": "assets/images/BookNook.png",
       "description": "Find a book based on a movie you like.",
@@ -18,7 +26,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "name": "Eat Da Burger",
       "image": "assets/images/EatDaBurger.png",
       "description": "Eat Bob's tasty burgers.",
@@ -27,7 +35,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "name": "Note Taker",
       "image": "assets/images/NoteTaker.png",
       "description": "Don't forget, take a note.",
@@ -36,7 +44,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "name": "Weather Dashboard",
       "image": "assets/images/WeatherDashboard.png",
       "description": "Track weather in any city around the world.",
@@ -45,7 +53,7 @@
     },
 
     {
-      "id": 6,
+      "id": 7,
       "name": "Work Day Scheduler",
       "image": "assets/images/WorkDayScheduler.png",
       "description": "Easily schedule each hour of your work day.",

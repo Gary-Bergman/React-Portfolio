@@ -6,7 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: url(/assets/images/background-port.jpg);
+  /* background-image: url(/assets/images/background-port.jpg); */
+  /* background-image: url(/assets/images/blue.jpg);
+  background-size: cover; */
+  /* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
+  /* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
+  /* background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
+  background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
 }
 
 code {
@@ -14,6 +22,15 @@ code {
     monospace;
 }
 
+.legendText {
+  color: rgb(107,137,142) !important;
+  text-shadow: .5px .5px #366A71;
+}
+
+a {
+  font-size: x-large;
+  color: #06545d;
+}
 
 /* TopNav */
 
@@ -21,28 +38,60 @@ code {
   float: right;
 }
 
+.navColor {
+  background-color: #fff;
+}
+
 .topNavItem {
-  color: #007bff !important;
+  color: #366A71 !important;
+  text-shadow: .5px 1px rgb(107,137,142);
+
 }
 
 .topNavItem:hover {
   font-weight: bold;
 }
 
+.name {
+  color: rgb(107,137,142) !important;
+  text-shadow: .5px .5px #366A71;
+}
+
 .name:hover {
   font-weight: bold;
+  color: #a3acad;
+}
+
+/* About */
+
+.aboutMe {
+  /* background-color: #BDC2BE; */
 }
 
 /* Portfolio */
 
-.projbtn {
+.descriptionText{
+  overflow-y: auto;
+  height: 40px;
+  width: auto;
+  text-align: center;
+  vertical-align: center;
+
+}
+.submit {
   background-color: #f8f9fa;
-  margin-top: 5px;
+  color: #06545d;
 }
 
-.projbtn:hover {
-  background-color: #cecece;
+.a:hover {
+  color: white !important;
 }
+
+
+
+/* .projbtn:hover {
+  background-color: #cecece;
+} */
 
 .hvr-grow {
   display: inline-block;
@@ -63,9 +112,6 @@ code {
 
 
 /* Contact */
-a {
-  font-size: x-large;
-}
 
 #contact-image {
   display: block;
@@ -81,5 +127,18 @@ div.card {
 
 .submit {
   background-color: #f8f9fa;
-  color: #007bff;
+  color: #06545d;
 }
+
+
+/* footer */
+
+i {
+  font-size: x-large;
+  color: #06545d;
+}
+
+i:hover {
+  font-size: xx-large;
+}
+

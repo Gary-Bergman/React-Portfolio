@@ -10,7 +10,7 @@ function About() {
 
         <Card className="m-sm-5 p-3 board aboutMe">
           <CardBody>
-            <legend className="card-title text-primary">About Me</legend>
+            <legend className="card-title legendText">About Me</legend>
             <hr className="my-4" />
 
             <Row>
