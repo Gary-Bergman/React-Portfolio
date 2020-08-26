@@ -260,6 +260,10 @@ i:hover {
     padding: 10% !important;
   }
 
+  .descriptionText{
+    height: 50px;
+  }
+
 
 }
 
