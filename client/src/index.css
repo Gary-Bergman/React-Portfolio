@@ -27,6 +27,11 @@ a {
   color: #06545d;
 }
 
+.mainCards {
+  /* margin-bottom: 20% !important; */
+  border-radius: 50px;
+}
+
 
 /* TopNav */
 
@@ -84,12 +89,8 @@ a {
   font-size: 50px;
   /* color: black;
   -webkit-text-stroke: .6px white; */
-
   color: white;
   -webkit-text-stroke: 1px black; 
-
-
-
 }
 
 #topLine {
@@ -107,10 +108,16 @@ a {
 /* About */
 
 .aboutMe {
+  border-radius: 50px;
   /* background-color: #BDC2BE; */
 }
 
 /* Portfolio */
+
+.portCard {
+  border-radius: 50px;
+  margin-bottom: 20% !important;
+}
 
 .descriptionText{
   overflow-y: auto;
@@ -169,17 +176,15 @@ a {
 
 
 /* Contact */
-
+.contactCard {
+  padding: 2% !important;
+}
 #contact-image {
   display: block;
   height: auto;
   max-height: 324px;
   min-width: 487px;
   /* min-width: 500px !important; */
-}
-
-div.card {
-  margin-bottom: 20% !important;
 }
 
 .submit {
@@ -202,3 +207,20 @@ i:hover {
 .footerNav {
  background-color: #fff !important;
 }
+
+/* Media Queries  */
+
+@media only screen and (max-width: 800px) {
+  .mainCards {
+    margin-bottom: 20% !important;
+  }
+
+  .contactCard {
+    padding: 10% !important;
+  }
+
+
+}
+
+
+/* Shoutout to cssgradient.io for the cool gradient text ideas */

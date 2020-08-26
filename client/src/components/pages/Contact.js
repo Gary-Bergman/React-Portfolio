@@ -41,7 +41,7 @@ function Contact() {
         <Notifications />
         <Container className="p-3">
 
-          <Card className="m-sm-5 p-3 board shadow-lg">
+          <Card className="m-sm-5 p-3 shadow-lg contactCard mainCards">
             <Form>
               <legend className="legendText">Contact</legend>
               <hr className="my-4" />

@@ -7,7 +7,7 @@ function Intro() {
     return (
         <>
             <Container >
-                <Card className="cardIntro shadow-lg">
+                <Card className="cardIntro shadow-lg mainCards">
                     <CardBody>
                         <CardText>
                             <div className="nameIntro">
