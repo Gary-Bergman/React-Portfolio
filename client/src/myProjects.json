@@ -27,24 +27,15 @@
 
     {
       "id": 4,
-      "name": "Eat Da Burger",
-      "image": "assets/images/EatDaBurger.png",
-      "description": "Eat Bob's tasty burgers.",
-      "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
-      "deployed": "https://eat-da-burger-great.herokuapp.com/" 
+      "name": "React Employee Directory",
+      "image": "assets/images/ReactEmployeeDirectory.png",
+      "description": "Manage your employees with ease.",
+      "repo": "https://github.com/Gary-Bergman/React-Employee-Directory" ,
+      "deployed": "https://react-employee-directory-great.herokuapp.com/" 
     },
 
     {
       "id": 5,
-      "name": "Note Taker",
-      "image": "assets/images/NoteTaker.png",
-      "description": "Don't forget, take a note.",
-      "repo": "https://github.com/Gary-Bergman/Note-Taker" ,
-      "deployed": "https://note-taker-great.herokuapp.com/"
-    },
-
-    {
-      "id": 6,
       "name": "Weather Dashboard",
       "image": "assets/images/WeatherDashboard.png",
       "description": "Track weather in any city around the world.",
@@ -53,12 +44,29 @@
     },
 
     {
-      "id": 7,
+      "id": 6,
       "name": "Work Day Scheduler",
       "image": "assets/images/WorkDayScheduler.png",
       "description": "Easily schedule each hour of your work day.",
       "repo": "https://github.com/Gary-Bergman/Work-Day-Scheduler" ,
       "deployed": "https://gary-bergman.github.io/Work-Day-Scheduler/" 
+    },
+
+    {
+      "id": 7,
+      "name": "Eat Da Burger",
+      "image": "assets/images/EatDaBurger.png",
+      "description": "Eat Bob's tasty burgers.",
+      "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
+      "deployed": "https://eat-da-burger-great.herokuapp.com/" 
+    },
+
+    {
+      "id": 8,
+      "name": "Note Taker",
+      "image": "assets/images/NoteTaker.png",
+      "description": "Don't forget, take a note.",
+      "repo": "https://github.com/Gary-Bergman/Note-Taker" ,
+      "deployed": "https://note-taker-great.herokuapp.com/"
     }
-   
   ]
