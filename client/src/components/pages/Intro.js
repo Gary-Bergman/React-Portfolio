@@ -6,8 +6,9 @@ import {
 function Intro() {
     return (
         <>
-            <Container >
-                <Card className="cardIntro shadow-lg mainCards">
+       <Container className="pb-3 pt-5">
+               
+          <Card className="m-sm-5 p-3 shadow-lg introCard mainCards">
                     <CardBody>
                         <CardText>
                             <div className="nameIntro">

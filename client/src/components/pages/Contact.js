@@ -39,7 +39,7 @@ function Contact() {
     <>
       <main>
         <Notifications />
-        <Container className="p-3">
+        <Container className="pb-3">
 
           <Card className="m-sm-5 p-3 shadow-lg contactCard mainCards">
             <Form>

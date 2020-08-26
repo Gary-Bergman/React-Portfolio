@@ -111,6 +111,16 @@ a {
   border-radius: 50px;
   /* background-color: #BDC2BE; */
 }
+.aboutText {
+  padding-top: 1em;
+  /* padding-bottom: 2em; */
+  line-height: 1.75em;
+}
+
+#bioImage {
+  padding: 2em;
+  border-radius: 25%;
+}
 
 /* Portfolio */
 
@@ -177,7 +187,7 @@ a {
 
 /* Contact */
 .contactCard {
-  padding: 2% !important;
+  padding: 4% !important;
 }
 #contact-image {
   display: block;
@@ -217,6 +227,18 @@ i:hover {
 
   .contactCard {
     padding: 10% !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+  .nameIntro {
+    font-size: 50px;
+  }
+
+  .bodyIntro {
+    font-size: 40px;
   }
 
 
