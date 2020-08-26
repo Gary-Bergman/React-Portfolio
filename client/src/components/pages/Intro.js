@@ -14,9 +14,11 @@ function Intro() {
                                 Gary Bergman
                             </div>
                             <hr className="my-4" />
-                            <div className="bodyIntro">
+                            <div className="bodyIntro" id="topLine">
                                 Full Stack Developer
+                            </div>
                             <br />
+                            <div className="bodyIntro" id="botLine">
                                 Web Designer
                             </div>
                         </CardText>
