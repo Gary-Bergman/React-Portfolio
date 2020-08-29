@@ -23,7 +23,7 @@ function FooterNav() {
                                 aria-hidden="true"></i> </a>
                             {/* <!-- Resume --> */}
                             <a className="col pl-5"
-                                href="https://drive.google.com/file/d/1F94wdjv8yIpOelPrx8zTdHZbk0UAFvru/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1fhXR-ut3xgxYAZuyzRCFijQzyBmXtDf3/view"
                                 target="_blank" rel="noopener noreferrer"><i className="fa fa-file-text-o" aria-hidden="true"></i> </a>
 
                         </Row>
