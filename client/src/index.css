@@ -263,11 +263,23 @@ i:hover {
   .descriptionText{
     height: 50px;
   }
+  .introCard {
+    margin-top: 8em !important;
+
+  }
 }
 
 @media only screen and (max-width: 769px) {
   .aboutText {
     text-align: center;
+  }
+
+  .nameIntro {
+    font-size: 45px;
+  }
+
+  .bodyIntro {
+    font-size: 34px;
   }
 }
 
