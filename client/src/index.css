@@ -263,9 +263,15 @@ i:hover {
   .descriptionText{
     height: 50px;
   }
-
-
 }
+
+@media only screen and (max-width: 769px) {
+  .aboutText {
+    text-align: center;
+  }
+}
+
+
 
 @media only screen and (max-width: 430px) {
   .nameIntro {
