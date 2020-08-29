@@ -275,11 +275,16 @@ i:hover {
 
 @media only screen and (max-width: 430px) {
   .nameIntro {
-    font-size: 50px;
+    font-size: 34px;
   }
 
   .bodyIntro {
-    font-size: 40px;
+    font-size: 25px;
+  }
+
+  .introCard {
+    margin-top: 4em !important;
+
   }
 
 
