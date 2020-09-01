@@ -15,6 +15,9 @@ function Project(props) {
                         <CardText className="descriptionText">
                             {props.description}
                         </CardText>
+                        <CardText className="technologiesText">
+                            {props.technologies}
+                        </CardText>
                         <Button className="prjBtn">
                             <a href={props.repo} target="_blank" rel="noopener noreferrer" className="buttonText">Project Repo</a>
                         </Button >

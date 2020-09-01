@@ -19,6 +19,7 @@ function Portfolio() {
                   name={myProjects.name}
                   image={myProjects.image}
                   description={myProjects.description} 
+                  technologies={myProjects.technologies}
                   repo={myProjects.repo}
                   deployed={myProjects.deployed}
                 />
