@@ -9,7 +9,7 @@ function Portfolio() {
       {/* <main className="container p-3"> */}
         <Card className="m-sm-5 p-3 board shadow-lg portCard mainCards">
           <CardBody className="card-body">
-            <legend className="card-title legendText">Portfolio</legend>
+            <legend className="card-title legendText">Projects</legend>
             <hr className="my-4" />
             <Row >
               {myProjects.map(myProjects => (
@@ -22,6 +22,7 @@ function Portfolio() {
                   technologies={myProjects.technologies}
                   repo={myProjects.repo}
                   deployed={myProjects.deployed}
+                  modal={myProjects.modal}
                 />
               ))}
             </Row>

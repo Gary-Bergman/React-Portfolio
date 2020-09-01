@@ -1,80 +1,99 @@
 [
-    {"id": 1,
-      "name": "TeachPod",
-      "image": "assets/images/TeachPod.png",
-      "description": "Connect parents with teachers to form learning pods.",
-      "technologies": "React.js, Express.js, ReactStrap, MongoDB, Mongoose, Axios, Bcrypt, Client-sessions, ReactToast, Carousel, JSX, CSS, WebPack, CRUD, Heroku, MVC file structure",
-      "repo": "https://github.com/Gary-Bergman/TeacherPod",
-      "deployed": "https://teach-pod-great.herokuapp.com/"
-    },
-
-    {
-      "id": 2,
-      "name": "Uni-Buy",
-      "image": "assets/images/UniBuy.png",
-      "description": "Buy and sell items at your local university.",
-      "technologies": "Node.js, Express.js, JavaScript, Handlebars, MySQL database with a Sequelize ORM, CRUD storage, Heroku, Materialize Framework, HTML, CSS, Environment variables for protection",
-      "repo": "https://github.com/Gary-Bergman/uni-buy",
-      "deployed": "https://uni-buy-great.herokuapp.com/"
-    },
-
-    {
-      "id": 3,
-      "name": "Book Nook",
-      "image": "assets/images/BookNook.png",
-      "description": "Find a book based on a movie you like.",
-      "technologies": "JavaScript, Multiple API’s, Foundations Framework, CRUD, HTML, CSS, GitHub Pages",
-      "repo": "https://github.com/Gary-Bergman/Book-Nook",
-      "deployed": "https://gary-bergman.github.io/Book-Nook/"
-    },
-
-    {
-      "id": 4,
-      "name": "React Employee Directory",
-      "image": "assets/images/ReactEmployeeDirectory.png",
-      "description": "Manage your employees with ease.",
-      "technologies": "React, JSX, JSON, React-Responsive, CSS",
-      "repo": "https://github.com/Gary-Bergman/React-Employee-Directory" ,
-      "deployed": "https://react-employee-directory-great.herokuapp.com/" 
-    },
-
-    {
-      "id": 5,
-      "name": "Weather Dashboard",
-      "image": "assets/images/WeatherDashboard.png",
-      "description": "Track weather in any city around the world.",
-      "technologies": "BootStrap, HTML, jQuery, local storage, CSS, OpenWeather API",
-      "repo": "https://github.com/Gary-Bergman/Weather-Dashboard" ,
-      "deployed": "https://gary-bergman.github.io/Weather-Dashboard/" 
-    },
-
-    {
-      "id": 6,
-      "name": "Work Day Scheduler",
-      "image": "assets/images/WorkDayScheduler.png",
-      "description": "Easily schedule each hour of your work day.",
-      "technologies": "jQuery, HTML, CSS, CRUD",
-      "repo": "https://github.com/Gary-Bergman/Work-Day-Scheduler" ,
-      "deployed": "https://gary-bergman.github.io/Work-Day-Scheduler/" 
-    },
-
-    {
-      "id": 7,
-      "name": "Eat Da Burger",
-      "image": "assets/images/EatDaBurger.png",
-      "description": "Eat Bob's tasty burgers.",
-      "technologies": "MySQL, Node.js, Express.js, Handlebars, ORM, MVC architecture, HTML, CSS",
-      "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
-      "deployed": "https://eat-da-burger-great.herokuapp.com/" 
-    },
-
-    {
-      "id": 8,
-      "name": "Note Taker",
-      "image": "assets/images/NoteTaker.png",
-      "description": "Don't forget, take a note.",
-      "technologies": "Express.js, JSON, HTML, CSS, CRUD",
-      "repo": "https://github.com/Gary-Bergman/Note-Taker" ,
-      "deployed": "https://note-taker-great.herokuapp.com/"
+  {
+    "id": 1,
+    "name": "TeachPod",
+    "image": "assets/images/TeachPod.png",
+    "description": "Connect parents with teachers to form learning pods.",
+    "technologies": "React.js, Express.js, ReactStrap, MongoDB, Mongoose, Axios, Bcrypt, Client-sessions, ReactToast, Carousel, JSX, CSS, WebPack, CRUD, Heroku, MVC file structure",
+    "repo": "https://github.com/Gary-Bergman/TeacherPod",
+    "deployed": "https://teach-pod-great.herokuapp.com/",
+    "modal": {
+      "option1": "PARENT = User: \"gbergman@email.com\" | Password: \"test123\"",
+      "option2": "TEACHER =  User: \"lwoods@email.com\" | Password: \"test1234\""
     }
-  ]
+  },
+  {
+    "id": 2,
+    "name": "Uni-Buy",
+    "image": "assets/images/UniBuy.png",
+    "description": "Buy and sell items at your local university.",
+    "technologies": "Node.js, Express.js, JavaScript, Handlebars, MySQL database with a Sequelize ORM, CRUD storage, Heroku, Materialize Framework, HTML, CSS, Environment variables for protection",
+    "repo": "https://github.com/Gary-Bergman/uni-buy",
+    "deployed": "https://uni-buy-great.herokuapp.com/",
+    "modal": {
+      "option1": "User: \"test@email.com\" | Password: \"test123\""
+    }
+  },
+  {
+    "id": 3,
+    "name": "Book Nook",
+    "image": "assets/images/BookNook.png",
+    "description": "Find a book based on a movie you like.",
+    "technologies": "JavaScript, Multiple API’s, Foundations Framework, CRUD, HTML, CSS, GitHub Pages",
+    "repo": "https://github.com/Gary-Bergman/Book-Nook",
+    "deployed": "https://gary-bergman.github.io/Book-Nook/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  },
+  {
+    "id": 4,
+    "name": "React Employee Directory",
+    "image": "assets/images/ReactEmployeeDirectory.png",
+    "description": "Manage your employees with ease.",
+    "technologies": "React, JSX, JSON, React-Responsive, CSS",
+    "repo": "https://github.com/Gary-Bergman/React-Employee-Directory",
+    "deployed": "https://react-employee-directory-great.herokuapp.com/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "assets/images/WeatherDashboard.png",
+    "description": "Track weather in any city around the world.",
+    "technologies": "BootStrap, HTML, jQuery, local storage, CSS, OpenWeather API",
+    "repo": "https://github.com/Gary-Bergman/Weather-Dashboard",
+    "deployed": "https://gary-bergman.github.io/Weather-Dashboard/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "assets/images/WorkDayScheduler.png",
+    "description": "Easily schedule each hour of your work day.",
+    "technologies": "jQuery, HTML, CSS, CRUD",
+    "repo": "https://github.com/Gary-Bergman/Work-Day-Scheduler",
+    "deployed": "https://gary-bergman.github.io/Work-Day-Scheduler/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Eat Da Burger",
+    "image": "assets/images/EatDaBurger.png",
+    "description": "Eat Bob's tasty burgers.",
+    "technologies": "MySQL, Node.js, Express.js, Handlebars, ORM, MVC architecture, HTML, CSS",
+    "repo": "https://github.com/Gary-Bergman/Eat-Da-Burger",
+    "deployed": "https://eat-da-burger-great.herokuapp.com/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Note Taker",
+    "image": "assets/images/NoteTaker.png",
+    "description": "Don't forget, take a note.",
+    "technologies": "Express.js, JSON, HTML, CSS, CRUD",
+    "repo": "https://github.com/Gary-Bergman/Note-Taker",
+    "deployed": "https://note-taker-great.herokuapp.com/",
+    "modal": {
+      "option1": "This project does not require a test account. You can enjoy this application without signing in!"
+    }
+  }
+]
