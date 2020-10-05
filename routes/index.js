@@ -5,10 +5,10 @@ require("dotenv").config()
 router.route("/api/submit")
   .post(function (req, res) {
     var transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: 'outlook',
       auth: {
         user: "gary-bergman@outlook.com",
-        pass: process.env.GMAIL_PW
+        pass: process.env.Outlook_PW
       },
     });
     var mailOptions = {
