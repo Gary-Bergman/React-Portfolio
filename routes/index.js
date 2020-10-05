@@ -7,13 +7,13 @@ router.route("/api/submit")
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: "garybergman00@gmail.com",
+        user: "gary-bergman@outlook.com",
         pass: process.env.GMAIL_PW
       },
     });
     var mailOptions = {
       from: req.body.email,
-      to: "garybergman00@gmail.com",
+      to: "gary-bergman@outlook.com",
       subject: 'Portfolio Email From: ' + req.body.name + `. Email sent from: ` + req.body.email,
       text: req.body.text
     };
