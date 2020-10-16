@@ -16,7 +16,7 @@ function About() {
             <Row>
               <CardText>
                 <img id="bioImage"
-                  className="col-sm-12 col-md-6 col-lg-4 img-fluid float-left mr-5"
+                  className="col-sm-12 col-md-6 col-lg-4 img-fluid float-left mr-5 hvr-float"
                   src="../assets/images/headshot.jpg" alt="Headshot" />
                 <div className="aboutText">
 
